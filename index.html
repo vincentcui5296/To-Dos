@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Resort</title>
+        <link rel="stylesheet" href="main/main.css">
+        <script src="js/scripts.js" defer></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="flex">
+            <h1>JavaScript To-Do List</h1>
+            <div class="flex-item add-todos">
+                <h2>Add To-Dos</h2>
+                <form action="#">
+                    <label for="task">Enter Task:</label>
+                    <input type="text" id="task" required>
+                    <label for="start-time">Start Time</label>
+                    <input type="datetime-local" id="start-time" required>
+                    <label for="end-time">End Time</label>
+                    <input type="datetime-local" id="end-time" required>
+                    <button>Add To Do</button>
+                </form>
+            </div>
+            <div class="flex-item">
+                <h2>Completed</h2>
+                <ul class="completed-todos">
+                </ul>
+            </div>
+            <div class="flex-items">
+                <h2>Active To-Dos</h2>
+                <ul class="active-todos">
+                </ul>
+            </div>
+
+        </div>
+    </body>
+</html>

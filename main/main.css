@@ -1,0 +1,26 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-item {
+    width: 50%;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+
+.add-todos * {
+    display: block;
+    margin: 10px;
+}
+
+.active-todos *, .completed-todos * {
+    display: block;
+    margin: 3px;
+}
+
